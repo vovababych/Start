@@ -1,5 +1,7 @@
 import './styles.css';
-import './calc/calc'
+import './calc/calc';
+import './calc/converter';
+
 import currencyTpl from './templates/currency.hbs';
 const currencyRef = document.querySelector('.currency');
 

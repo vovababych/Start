@@ -21,8 +21,6 @@ body {
   background-image: url('./images/bg-pattern.png');
 
   margin-top: 50px;
-
-
 }
 
 
@@ -41,8 +39,48 @@ body {
 }
 
 .calc{
-  width: 400px;
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  width: 320px;
   border: 1px solid grey;
   border-radius: 4px;
   padding: 10px;
+}
+
+
+.converter{
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  color: #fff;
+  width: 280px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 5px;
+  padding-bottom: 20px;
+  background-color: rgb(36, 67, 5);
+}
+.converter-title{
+  font-size: 20px;
+  text-align: center;
+padding: 5px 20px;
+background-color: rgb(82, 151, 12);
+}
+
+
+.input-wrapper{
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.input-wrapper input{
+  color: #fff;
+  text-align: end;
+  margin-left: 20px;
+  width: 70px;
+  background-color: transparent;
+  border: 1px solid rgb(82, 151, 12);
+  border-radius: 2px;
 }
